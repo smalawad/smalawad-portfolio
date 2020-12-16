@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --primary-color: red;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -11,4 +14,9 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+/* links */
+
+.primary-link {
+    color: var(--primary-color);
 }

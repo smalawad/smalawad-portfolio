@@ -1,19 +1,5 @@
-body{
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-h1 {
-    color: blue;
-}
-
-h2{
-    color: yellow;
-}
-
-#lib-header {
-    color: green;
-}
-
-.para{
-    color: gray;
+body {
+    font-family: 'Lato', sans-serif;
 }

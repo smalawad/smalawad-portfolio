@@ -10,6 +10,7 @@ hr {
 }
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0px;
 }
 /* containers */
 .container {
@@ -82,6 +83,7 @@ body {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
@@ -101,4 +103,20 @@ body {
 
 .ow {
     background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }

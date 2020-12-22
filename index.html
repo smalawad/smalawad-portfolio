@@ -3,136 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet"/>
-
+    <title>Home | Shrikanth</title>
+    <link href="styles.css" rel="stylesheet" />
+    
 </head>
 <body>
-    <h1> shrikanth's component library</h1>
-    <p >I am attending camp and I want to make library which would make 
-        all my projects look good and consistent.</p>
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p> Let me show you the normal text, This is free flowing and well 
-        wrap at the end like a paragraph.</p>
-
-    <p>This paragraph will have <strong>bold</strong> string</p>
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container ">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
     
-    <a class="link link-primary" href="/">Primarylink</a>
-    <a class="link link-secondary" href="/">secondarylink</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Frontend Developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="about.html">About</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="resources.html">Resources</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/web-design.jpg"/>
+        <h1 class="hero-heading">Shrikanth the <span class="heading-inverted">web developer</span></h1>
     
-    <hr>
+    </header>
 
+    <section class="section">
+        <div class="container container-center">
+            <h1>About Shrikanth</h1>
+            <p>I'm webdevloper working on building responsive website. </p>
+        </div>
+        
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML, CSS, Git, JavaScript, NodeJS, ReactJS ad Web Hosting</p>
+        </div>
+        
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
+
+     <section class="section">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical blogs. I linke to document my journey of learning.</p>
+            <a class="link link-primary" href="/">Read Blogs</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Resources</h1>
+            <p>Here is list of all frontend reourses.</p>
+            <a class="link link-primary" href="/">Resources</a>
+        </div>
+    </section>
     
-<h2>@lists</h2>
-
-<h3>unordered list</h3>
-<p>This list will not have the bullet</p>
-
-<ul class="list-non-bullet">
-    <li >Item One</li>
-    <li >Item Two</li>
-    <li >Item Three</li>
-</ul>
-
-<h3>unordered inline list</h3>
-
-<ul class="list-non-bullet">
-    <li class="list-item-inline">Inline Item One</li>
-    <li class="list-item-inline">Inline Item Two</li>
-    <li class="list-item-inline">Inline Item Three</li>
-
-</ul>
-
-<h3>ordered list</h3>
-
-<ol reversed>
-    <li>milk</li>
-    <li>eggs</li>
-    <li>bread</li>
-</ol>
-
-<hr>
-
-<h2>@nav</h2>
-
-<nav class="navigation container">
-    <div class="nav-brand">Frontend Developer</div>
-    <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-            <a class="link link-active" href="/">Home</a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link" href="/">Product</a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link" href="/">About</a>
-        </li>
-    </ul>
-</nav>
-
-<hr>
-
-<h2>header</h2>
-
-<header class="hero">
-    <img class="hero-img" src="images/champ.svg"/>
-    <h1 class="hero-heading">Shrikanth the <span class="heading-inverted">web developer</span></h1>
-
-</header>
-
-<hr>
-<h2>@section</h2>
-<section class="section">
-    <div class="container container-center">
-        <h1>white section</h1>
-        <p>There are multiple avenues you can take to contribute to MDN depending on your skillset and interests. Along with each task we provide a short description and an approximate time that each type of task typically takes.</p>
-    </div>
-    
-</section>
-
-<section class="section ow">
-    <div class="container container-center"> 
-        <h1>off white section</h1>
-        <p>There are multiple avenues you can take to contribute to MDN depending on your skillset and interests. Along with each task we provide a short description and an approximate time that each type of task typically takes.</p>
-    </div> 
-</section>
-
-<hr>
-<h2>@footer</h2>
-
 <footer class="footer">
-    <div class="footer-header">Some small heading inside footer</div>
+    <div class="footer-header">Social media presence</div>
     <ul class="social-links list-non-bullet">
         <li class="list-item-inline">
-            <a class="link" href="/">
-                socialOne
+            <img src="images/Github.png">
+            <a class="link" href="https://github.com/smalawad">
+                Github
             </a>
         </li>
         <li class="list-item-inline">
             <a class="link" href="/">
-                socialTwo
+                Twitter
             </a>
         </li>
         <li class="list-item-inline">
-            <a class="link" href="/">
-                socialThree
+            <a class="link" href="https://www.linkedin.com/in/malawadshrikanth/">
+                LinkedIn
             </a>
         </li>
     </ul>

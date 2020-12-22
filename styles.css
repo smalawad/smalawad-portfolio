@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root {
-    --primary-color: #4338CA;
+    /* --primary-color: #4338CA; */
+    /* --primary-color: #DC3D24; */
+    --primary-color: #F84249;/*#EF4444;*/
     --off-white: #E5E7EB;
-    --dark-gray: #6B7280;
+    --secondary-color: #232B2B;
+    /* --dark-gray: #6B7280; */
+    --dark-gray: #232B2B;
 }
 
 hr {
     margin: 2rem 0rem;
 }
+.margin-md {
+    margin: 2rem;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
@@ -27,7 +35,7 @@ body {
     padding: 0.5rem 1rem;
 }
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 0.5rem;
     color: white;
 }
@@ -48,6 +56,11 @@ body {
     padding: 0rem 0.5rem;
 }
 
+/* .li {
+    display:  inline;
+    text-align: -webkit-match-parent;
+} */
+
 /* navigation */
 
 .navigation {
@@ -62,8 +75,15 @@ body {
 }
 
 .navigation .nav-pills {
+     display: flex;
     text-align: right;
 }
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
 .navigation .link {
     color: white;
 }
@@ -74,6 +94,7 @@ body {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -99,6 +120,7 @@ body {
 }
 .section h1 {
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .ow {
@@ -115,8 +137,15 @@ body {
 
 .footer .link {
     color: white;
+   }
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
+    display: flex;
+    text-align: right;
     padding-inline-start: 0px;
 }

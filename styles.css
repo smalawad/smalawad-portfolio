@@ -75,7 +75,7 @@ body {
 }
 
 .navigation .nav-pills {
-     display: flex;
+    display: flex;
     text-align: right;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .footer .link {
     color: white;
-   }
+}
 
 .footer .footer-header {
     font-weight: bold;
@@ -147,4 +147,11 @@ body {
     display: flex;
     text-align: right;
     padding-inline-start: 0px;
+}
+
+.footer ul li img {
+    display: block;
+    margin: auto;
+    max-width: 40px;
+    
 }

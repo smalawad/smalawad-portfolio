@@ -158,15 +158,16 @@ body {
 
 .footer ul {
     display: flex;
+    justify-content: center;
     text-align: right;
     padding-inline-start: 0px;
 }
 
 .footer ul li img {
-    display: block;
+    display: flex;
     text-align: center;
     /* vertical-align: middle; */
-    margin: auto;
+    margin: 0 auto;
     max-width: 40px;
 
 }

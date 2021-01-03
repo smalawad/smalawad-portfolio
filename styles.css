@@ -11,7 +11,7 @@
     --off-white: #E5E7EB;
     --secondary-color: #232B2B;
     /* --dark-gray: #6B7280; */
-    --dark-gray: #232B2B;
+    /* --dark-gray: #232B2B; */
 }
 
 hr {
@@ -116,7 +116,7 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--secondary-color);
 }
 
 .hero .hero-heading .heading-inverted {

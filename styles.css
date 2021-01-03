@@ -163,8 +163,10 @@ body {
 }
 
 .footer ul li img {
-    display: block;
-    margin: auto;
+    display: flex;
+    /* text-align: center; */
+    vertical-align: middle;
+    /* margin: auto; */
     max-width: 40px;
 
 }

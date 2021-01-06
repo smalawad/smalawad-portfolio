@@ -171,3 +171,8 @@ body {
     max-width: 40px;
 
 }
+
+.format {
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+}

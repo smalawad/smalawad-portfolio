@@ -76,6 +76,8 @@ body {
 /* navigation */
 
 .navigation {
+    position: sticky;
+    top: 0;
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;

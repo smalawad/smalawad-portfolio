@@ -3,13 +3,14 @@
 :root {
     /* --primary-color: #4338CA; */
     /* --primary-color: #DC3D24; */
-    --primary-color: #66AFF9;
+    --primary-color: #3474b4;/*#66AFF9 */
     /* --primary-color: #09325c; */
     /* --primary-color: #0a0a23; */
     /*#53DEDE;*/
     /* --primary-color: #F84249;#EF4444; */
     --off-white: #E5E7EB;
     --secondary-color: #232B2B;
+    --main-body: #fafafa;
     /* --dark-gray: #6B7280; */
     /* --dark-gray: #232B2B; */
 }
@@ -23,6 +24,7 @@ hr {
 }
 
 body {
+    background-color: var(--main-body);
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }

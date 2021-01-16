@@ -12,6 +12,7 @@
     --off-white: #E5E7EB;
     --secondary-color: #232B2B;
     --main-body: #fafafa;
+    --body-color: #f4f4f2;
     /* --dark-gray: #6B7280; */
     /* --dark-gray: #232B2B; */
 }
@@ -25,7 +26,8 @@ hr {
 }
 
 body {
-    background-color: var(--main-body);
+    /* background-color: var(--main-body); */
+    background-color: var(--body-color);
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
@@ -180,4 +182,8 @@ body {
 .format {
     letter-spacing: 4px;
     font-family: 'Roboto', sans-serif;
+}
+
+.hire {
+    color: var(--primary-color);
 }
